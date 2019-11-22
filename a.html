@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PW</title>
+     <link rel="shortcut icon" href="img/11.ico" type="image/x-icon">
+<style>
+   #menu1:hover::after { 
+ content: attr(data-title); 
+}
+   #menu2:hover::after { 
+ content: attr(data-title); 
+}
+   #menu3:hover::after { 
+ content: attr(data-title); 
+}
+   #menu4:hover::after { 
+ content: attr(data-title); 
+}
+   #menu5:hover::after { 
+ content: attr(data-title); 
+}
+</style>
+</head>
+<body style="background: url(img/img2.png);">
+	<div style="margin: 0; float: left;">грошей:</div><div id="div"style=" margin: 0; float: left; color:gold;" >1500$</div><div id="div1" style="margin: 0;margin-left:840px; color: cyan; " >0VAL</div>
+			<canvas id="myCanvas" width="800" height="400"style=" float: left;" onclick="tele5()"></canvas>
+			<div id="menu" style="margin-left:840px; width:200px; height:420px; background: url(img/122.png);" >
+				<button id="menu1" style="margin-top: 10px; margin-left:10px;  background-color:red; width:180px; height:70px;" onmousemove="m1()" data-title=" Зменьшити штраф за те, що не встиг"onclick="shop1()" >150$</button>
+					<button id="menu2"  style=" margin-left:10px; margin-top:10px;background-color:white; width:180px; height:70px;"onmousemove="m1()" data-title=" Збільшити швидкість накопичування Val на 1" onclick="shop2()" >250$</button>
+						<button id="menu3" style="margin-left:10px; margin-top:10px;background-color:yellow; width:180px; height:70px;" onmousemove="m1()" data-title=" Збільшити швидкість пересування" onclick="shop3()">1000$</button>
+						<button  id="menu4"style="margin-left:10px; margin-top:10px;background-color:blue; width:180px; height:70px;" onmousemove="m1()"  data-title=" Збільшити зарплату за фото на 20$" onclick="shop5()">100VAL</button>
+							<button id="menu5" style="margin-left:10px; margin-top:10px;background-color:gray; width:180px; height:70px;"onclick="shop4()"  data-title=" Збільшити пасивний дохід" onmousemove="m1()" >750VAL</button>
+					</div>
+
+<div>
+	
+	<button style="width: 190px; height: 40px; background-color: red; " onclick="tele1()">Вліво</button>
+	<button style="width: 190px; height: 40px; background-color: red; "  onclick="tele2()">Вгору</button>
+	<button style="width: 190px; height: 40px; background-color: red; "  onclick="tele3()">Вниз</button>
+	<button style="width: 190px; height: 40px; background-color: red; "  onclick="tele4()">Врпаво</button>
+</div>
+<script src="res.js"></script>
+</body>
+</html>

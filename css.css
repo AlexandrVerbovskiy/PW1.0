@@ -1,0 +1,27 @@
+.block1 {
+    width: 40%;
+    height: 20vh;
+    position: absolute;
+    margin: 20vh 30%;
+}
+.block2 {
+    width: 40%;
+    height: 20vh;
+    position: absolute;
+    margin: 60vh 30%;
+
+    
+}
+a{
+        text-decoration: none; 
+    
+        font-size:14vh;
+}
+.osnova{
+	text-align:  center;
+	vertical-align:middle;
+}
+body{
+margin: 0;
+background: url(img/img1.png);
+}
